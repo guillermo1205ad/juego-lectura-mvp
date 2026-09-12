@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-game-bg: #f0f9ff;
+  --color-game-primary: #3b82f6;
+  --color-game-secondary: #10b981;
+  --color-game-accent: #f59e0b;
+  --color-game-text: #1e293b;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-game-bg);
+    color: var(--color-game-text);
+    font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+  }
+}
